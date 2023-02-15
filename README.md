@@ -1,52 +1,43 @@
-# Project Name
-> Outline a brief description of your project.
+# Hand Gesture Recognition Case Study
+> Let's imagine a home electronics company which manufactures state of the art smart televisions. We need to develop a cool feature in the smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote.
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The training data consists of a few hundred videos categorised into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images). These videos have been recorded by various people performing one of the five gestures in front of a webcam - similar to what the smart TV will use.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The gestures are continuously monitored by the webcam mounted on the TV. Each gesture corresponds to a specific command:
+
+- Thumbs up: Increase the volume
+- Thumbs down: Decrease the volume
+- Left swipe: 'Jump' backwards 10 seconds
+- Right swipe: 'Jump' forward 10 seconds
+- Stop: Pause the movie
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Final Model Categorical Accuracy = 99.62% and Validation Accuracy = 98.00%
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Tensorflow - version 2.0
+- pandas
+- statsmodel
+- matplotlib
+- numpy
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
+- This project was inspired by Upgrad
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@PriyaPatil74] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
